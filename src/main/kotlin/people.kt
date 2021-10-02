@@ -1,4 +1,4 @@
-package one.digitalInovation.digiobank
+    package one.digitalInovation.digiobank
 
 class people {
 
