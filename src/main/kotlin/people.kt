@@ -3,10 +3,10 @@
 class people {
 
     var name: String = "Felipe"
-    private get
 
-    constructor()
-    fun peopleInfo() = "$nome e $cpf"
+
+
+    fun peopleInfo() = "$name e $cpf"
 
 
     var cpf: String = "123.123.123-48"
