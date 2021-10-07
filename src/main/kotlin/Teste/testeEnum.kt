@@ -4,12 +4,12 @@ import src.main.kotlin.ClienteTipo
 
 fun main() {
     ClienteTipo.values().forEach { elemento ->
-        println("${elemento.name}  ${elemento.toString()}")
+        println("${elemento.name}  ${elemento.Descricao}")
 
     }
 
     ClienteTipo.values().forEach {
-        println("${it.name}  ${it.toString()}")
+        println("${it.name}  ${it.Descricao}")
     }
 }
 

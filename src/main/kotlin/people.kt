@@ -1,23 +1,9 @@
     package one.digitalInovation.digiobank
 
-class people {
-
-    var name: String = "Felipe"
-
-
-
-    fun peopleInfo() = "$name e $cpf"
+ abstract class people(
+     val nome: String,
+     val cpf: String
+)
 
 
-    var cpf: String = "123.123.123-48"
-     private set
-}
 
-fun main(){
-    val felipe = people()
-
-    println(felipe.peopleInfo())
-    //println(felipe.name)
-    //println(felipe.cpf)
-    //println(felipe.Endereco().rua)
-}
